@@ -15,7 +15,7 @@
 ---
 
 ### 🧑‍💻 About Me
-- 🎓 I'm a second-year undergraduate at the **University of Moratuwa**, specializing in **Data Science and Engineering**.
+- 🎓 I'm a third-year undergraduate at the **University of Moratuwa**, specializing in **Data Science and Engineering**.
 - 🚀 I’m passionate about solving real-world problems through **AI**, **DevOps**, and **Full-Stack Development**.
 - 📱 I love building sleek mobile apps using **Flutter** and dynamic web apps using **React.js**.
 - 🧠 I'm constantly exploring **Machine Learning**, **Cloud Computing**, and **Kubernetes**.
