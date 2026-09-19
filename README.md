@@ -89,20 +89,7 @@ motto: "Ship things that solve real problems."
     <td align="center">🎯</td>
     <td><b>Semi-Finalist</b> — Idealize 2024 <sub>(250+ teams)</sub></td>
   </tr>
-  <tr>
-    <td align="center">🎖️</td>
-    <td><b>Dean's List</b> — 5 of 6 semesters</td>
-  </tr>
 </table>
-
----
-
-<!-- ===== PUBLICATION ===== -->
-### 📄 &nbsp;Publication
-
-> **Next-Generation Smart Agriculture: Harnessing Agentic AI for Adaptive Ecosystems**
-> *Integrated Machine Learning with Mathematical and Statistical Models* — Wiley-Scrivener, in press
-> <sub>P. Ranaweera, D. Appuhami, **V. Munasinghe**, C. Warnakulasooriya, D. Meedeniya</sub>
 
 ---
 
