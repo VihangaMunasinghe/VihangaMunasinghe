@@ -58,12 +58,13 @@
     <animate attributeName="opacity" values="0.25;1;0.25" dur="4s" repeatCount="indefinite"/>
   </rect>
 
+  <!-- Wave at TOP edge, curving down into content -->
   <g>
-    <path d="M-100 176 C 60 156, 260 196, 420 176 S 780 156, 1100 176 L1100 220 L-100 220 Z" fill="#7aa2f7" opacity="0.15">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -45 4; 0 0" dur="8s" repeatCount="indefinite"/>
+    <path d="M-100 24 C 60 44, 260 4, 420 24 S 780 44, 1100 24 L1100 -20 L-100 -20 Z" fill="#7aa2f7" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -45 -4; 0 0" dur="8s" repeatCount="indefinite"/>
     </path>
-    <path d="M-100 184 C 120 167, 320 202, 540 184 S 880 170, 1100 184 L1100 220 L-100 220 Z" fill="#bb9af7" opacity="0.18">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 45 -3; 0 0" dur="10s" repeatCount="indefinite"/>
+    <path d="M-100 16 C 120 33, 320 -2, 540 16 S 880 30, 1100 16 L1100 -20 L-100 -20 Z" fill="#bb9af7" opacity="0.18">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 45 3; 0 0" dur="10s" repeatCount="indefinite"/>
     </path>
   </g>
 </svg>

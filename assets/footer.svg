@@ -29,12 +29,13 @@
     </circle>
   </g>
 
+  <!-- Wave at BOTTOM edge, curving up from content -->
   <g>
-    <path d="M-100 34 C 80 16, 260 54, 440 34 S 800 14, 1100 34 L1100 -20 L-100 -20 Z" fill="#7aa2f7" opacity="0.14">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 45 3; 0 0" dur="9s" repeatCount="indefinite"/>
+    <path d="M-100 96 C 80 114, 260 76, 440 96 S 800 116, 1100 96 L1100 140 L-100 140 Z" fill="#7aa2f7" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 45 -3; 0 0" dur="9s" repeatCount="indefinite"/>
     </path>
-    <path d="M-100 26 C 140 8, 340 44, 560 26 S 900 10, 1100 26 L1100 -20 L-100 -20 Z" fill="#bb9af7" opacity="0.16">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -45 -3; 0 0" dur="11s" repeatCount="indefinite"/>
+    <path d="M-100 104 C 140 122, 340 86, 560 104 S 900 120, 1100 104 L1100 140 L-100 140 Z" fill="#bb9af7" opacity="0.16">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -45 3; 0 0" dur="11s" repeatCount="indefinite"/>
     </path>
   </g>
 
