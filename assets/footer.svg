@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" aria-label="Let's build something">
+  <defs>
+    <linearGradient id="fBg" x1="0" y1="0" x2="1000" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1b27"/>
+      <stop offset="0.5" stop-color="#171a2e"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="fText" x1="350" y1="0" x2="650" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7dcfff">
+        <animate attributeName="stop-color" values="#7dcfff;#bb9af7;#7aa2f7;#7dcfff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#bb9af7">
+        <animate attributeName="stop-color" values="#bb9af7;#7aa2f7;#7dcfff;#bb9af7" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="fSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="120" fill="url(#fBg)"/>
+
+  <g filter="url(#fSoft)" opacity="0.38">
+    <circle cx="220" cy="90" r="50" fill="#7aa2f7">
+      <animate attributeName="cx" values="220;330;220" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="790" cy="30" r="52" fill="#bb9af7">
+      <animate attributeName="cx" values="790;680;790" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g>
+    <path d="M-100 34 C 80 16, 260 54, 440 34 S 800 14, 1100 34 L1100 -20 L-100 -20 Z" fill="#7aa2f7" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 45 3; 0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-100 26 C 140 8, 340 44, 560 26 S 900 10, 1100 26 L1100 -20 L-100 -20 Z" fill="#bb9af7" opacity="0.16">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -45 -3; 0 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="500" y="82" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="22" font-weight="600" letter-spacing="1" fill="url(#fText)">Let&#8217;s build something.</text>
+
+  <circle cx="470" cy="97" r="3" fill="#7dcfff">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="97" r="3" fill="#bb9af7">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="530" cy="97" r="3" fill="#9ece6a">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
